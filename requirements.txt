@@ -10,7 +10,7 @@ async-timeout==4.0.3
 attrs==21.2.0
 Automat==20.2.0
 Babel==2.8.0
-bcc==0.18.0
+bcc==0.1.10
 bcrypt==3.2.0
 beautifulsoup4==4.12.3
 blinker==1.8.2
