@@ -45,7 +45,3 @@
         closeUserListModal();
     }
 };
-
-setInterval(function () {
-    window.location.reload();
-}, 60000); // Reloads every 60,000 milliseconds (60 seconds)
