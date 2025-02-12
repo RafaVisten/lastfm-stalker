@@ -1,0 +1,127 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #000000;
+    color: #cccccc;
+}
+
+h1 {
+    color: white;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    max-width: 80%;
+    margin: auto;
+}
+.card {
+    background: #202020;
+    padding: 15px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
+.card a {
+    text-decoration: none;
+    color: #bbbbbb;
+    font-weight: bold;
+}
+
+/* Button Style */
+
+.button-container {
+    padding: 10px;
+}
+
+.top-button {
+    display: inline;
+    background-color: #151515;
+    color: white;
+    border: none;
+    border-radius: 20%;
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+/* Hover effect */
+.top-button:hover {
+    background-color: #606060;
+    transform: scale(1.1);
+}
+
+/* Active effect */
+.top-button:active {
+    background-color: #606060;
+    transform: scale(0.9);
+}
+
+/* Icon styling */
+.top-button i {
+    font-size: 20px;
+}
+
+/* Modal Style */
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: #000000;
+    padding-top: 60px;
+    
+}
+
+.modal-content {
+    background-color: #101010;
+    margin: 5% auto;
+    padding: 20px;
+    border-radius: 3%;
+    width: 80%;
+    height: 50%;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column; /* Stack content vertically */
+    justify-content: space-between; /* Space elements evenly */
+    min-height: 200px; /* Adjust height as needed */
+}
+
+.modal-content textarea {
+    margin-bottom: 20px; /* Adds spacing above the button */
+    padding: 10px;
+    height: 80%;
+    background-color: #202020;
+    border-color: #101010;
+    color: #EEEEEE;
+    border-radius: 3%;
+    line-height: 15px;
+    resize: none;
+}
+
+.modal-content button {
+    align-self: center;
+    padding: 10px 15px;
+    background-color: #202020;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 25%;
+}
