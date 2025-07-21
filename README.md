@@ -8,3 +8,5 @@ If you want to run it locally, generate your own Last.fm API key / secret and cr
 LASTFM_API_KEY="yourkeyhere"
 LASTFM_API_SECRET="yoursecrethere"
 ```
+
+One day I'll try and redo this one better.
